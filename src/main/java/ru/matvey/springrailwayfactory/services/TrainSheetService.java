@@ -18,6 +18,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TrainSheetService {
     private final TrainSheetRepository trainSheetRepository;
+    private final WagonService wagonService;
 
     public TrainSheet addTrainSheet() {
         var trainSheet = TrainSheet.builder()
@@ -25,6 +26,16 @@ public class TrainSheetService {
                 .status(TrainSheetStatus.Created)
                 .wagons(new ArrayList<>())
                 .build();
+        trainSheetRepository.save(trainSheet);
+        return trainSheet;
+    }
+
+    public TrainSheet addWagonToTrainSheet(Long trainSheetId, Long wagonId) {
+        var trainSheet = getTrainSheetById(trainSheetId);
+        var wagon = wagonService.getWagonById(wagonId);
+        var trainSheetWagons = trainSheet.getWagons();
+        trainSheetWagons.add(wagon);
+        trainSheet.setWagons(trainSheetWagons);
         trainSheetRepository.save(trainSheet);
         return trainSheet;
     }

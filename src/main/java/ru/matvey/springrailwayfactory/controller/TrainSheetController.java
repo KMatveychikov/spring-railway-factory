@@ -5,6 +5,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ru.matvey.springrailwayfactory.model.TrainSheet;
+import ru.matvey.springrailwayfactory.model.dto.AddWagonToTrainSheetRequest;
 import ru.matvey.springrailwayfactory.model.dto.UpdateTrainSheetRequest;
 import ru.matvey.springrailwayfactory.services.TrainSheetService;
 
@@ -20,6 +21,11 @@ public class TrainSheetController {
     @PostMapping("/add")
     public ResponseEntity<TrainSheet> addTrainSheet() {
         return ResponseEntity.ok(trainSheetService.addTrainSheet());
+    }
+
+    @PostMapping("/add_wagon")
+    public ResponseEntity<?> addWagonToTrainSheet(@RequestBody AddWagonToTrainSheetRequest request) {
+        return ResponseEntity.ok(trainSheetService.addWagonToTrainSheet(request.getSheetId(), request.getWagonId()));
     }
 
     @GetMapping("/all")

@@ -26,7 +26,6 @@ public class WagonService {
                 .type(request.getType())
                 .wagonWeight(request.getWagonWeight())
                 .wagonCapacity(request.getWagonCapacity())
-                .orderNumber(request.getOrderNumber())
                 .cargo(cargoService.getCargoById(request.getCargoId()))
                 .cargoWeight(request.getCargoWeight())
                 .status(WagonStatus.Created)
@@ -69,6 +68,7 @@ public class WagonService {
         wagonRepository.save(wagon);
 
     }
+
     public void setWagonCargo(Long wagonId, Cargo cargo) {
         var wagon = getWagonById(wagonId);
         wagon.setCargo(cargo);
@@ -111,11 +111,12 @@ public class WagonService {
                 .wagonCapacity(wagon.getWagonCapacity())
                 .build();
     }
+
     //метод для таможенников, росчеком на документах удаляем груз из номенклатуры, и из всех вагонов
     public void hardDeleteCargo(Long cargoId) {
         List<Wagon> wagons = getAllWagons();
         wagons.stream().peek(wagon -> {
-            if(Objects.equals(wagon.getCargo().getId(), cargoId)) setWagonCargo(wagon.getWagonNumber(), null);
+            if (Objects.equals(wagon.getCargo().getId(), cargoId)) setWagonCargo(wagon.getWagonNumber(), null);
         }).toList();
         cargoService.deleteCargo(cargoId);
     }

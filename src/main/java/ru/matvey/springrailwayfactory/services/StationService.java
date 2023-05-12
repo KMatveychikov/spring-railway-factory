@@ -50,16 +50,24 @@ public class StationService {
 
     }
 
-    public Station acceptTrain(Long stationId, Long trainSheetId) {
+    public Station addTrainToStation(Long stationId, Long trainSheetId) {
         var station = getStationById(stationId);
         var train = trainSheetService.getTrainSheetById(trainSheetId);
         List<Wagon> stationUnsortedWagons = station.getUnsortedWagons();
         List<Wagon> trainWagons = train.getWagons();
-        stationUnsortedWagons.addAll(trainWagons);
         trainWagons.forEach(wagon -> {
-            wagonService.setWagonStatus(wagon.getWagonNumber(), WagonStatus.Unsorted);
-            wagonService.setWagonStation(wagon.getWagonNumber(), stationId);
-            wagonService.setWagonLastMove(wagon.getWagonNumber());
+            if(!stationUnsortedWagons.contains(wagon)) {
+                stationUnsortedWagons.add(wagon);
+                wagonService.setWagonStatus(wagon.getWagonNumber(), WagonStatus.Unsorted);
+                wagonService.setWagonStation(wagon.getWagonNumber(), stationId);
+                wagonService.setWagonLastMove(wagon.getWagonNumber());
+            } else {
+                try {
+                    throw new Exception("Нельзя добавить один и тот же вагон несколько раз");
+                } catch (Exception e) {
+                    throw new RuntimeException(e);
+                }
+            }
         });
         station.setUnsortedWagons(stationUnsortedWagons);
         stationRepository.save(station);

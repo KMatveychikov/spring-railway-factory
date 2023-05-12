@@ -13,7 +13,6 @@ public class AddWagonRequest {
     private WagonType type;
     private float wagonWeight;
     private float wagonCapacity;
-    private int orderNumber;
     private Long cargoId;
     private float cargoWeight;
 }
