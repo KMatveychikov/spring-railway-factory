@@ -22,7 +22,7 @@ public class WagonService {
     private final CargoService cargoService;
 
     public Wagon addWagon(AddWagonRequest request) {
-        var wagon = Wagon.builder()
+        Wagon wagon = Wagon.builder()
                 .type(request.getType())
                 .wagonWeight(request.getWagonWeight())
                 .wagonCapacity(request.getWagonCapacity())
@@ -45,33 +45,39 @@ public class WagonService {
     }
 
     public void setWagonStatus(Long wagonId, WagonStatus status) {
-        var wagon = getWagonById(wagonId);
+        Wagon wagon = getWagonById(wagonId);
         wagon.setStatus(status);
         wagonRepository.save(wagon);
     }
 
     public void setWagonStation(Long wagonId, Long stationId) {
-        var wagon = getWagonById(wagonId);
+        Wagon wagon = getWagonById(wagonId);
         wagon.setStationId(stationId);
         wagonRepository.save(wagon);
     }
 
     public void setWagonRailway(Long wagonId, Long railwayId) {
-        var wagon = getWagonById(wagonId);
+        Wagon wagon = getWagonById(wagonId);
         wagon.setRailwayId(railwayId);
         wagonRepository.save(wagon);
     }
 
     public void setWagonLastMove(Long wagonId) {
-        var wagon = getWagonById(wagonId);
+        Wagon wagon = getWagonById(wagonId);
         wagon.setLastMove(LocalDateTime.now());
         wagonRepository.save(wagon);
 
     }
 
     public void setWagonCargo(Long wagonId, Cargo cargo) {
-        var wagon = getWagonById(wagonId);
+        Wagon wagon = getWagonById(wagonId);
         wagon.setCargo(cargo);
+        wagonRepository.save(wagon);
+    }
+
+    public void setWagonOrderNumber(Long wagonId, int orderNumber) {
+        Wagon wagon = getWagonById(wagonId);
+        wagon.setOrderNumber(orderNumber);
         wagonRepository.save(wagon);
     }
 
@@ -91,6 +97,11 @@ public class WagonService {
 
         wagonRepository.save(wagon);
         return wagon;
+    }
+
+    public List<Wagon> fixWagonOrder(List<Wagon> wagons) {
+        wagons.stream().peek(wagon -> wagon.setOrderNumber(wagons.indexOf(wagon) + 1));
+        return wagons;
     }
 
     public void deleteWagon(Long wagonId) throws Exception {

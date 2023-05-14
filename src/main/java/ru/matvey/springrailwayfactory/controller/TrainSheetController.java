@@ -24,7 +24,7 @@ public class TrainSheetController {
     }
 
     @PostMapping("/add_wagon")
-    public ResponseEntity<?> addWagonToTrainSheet(@RequestBody AddWagonToTrainSheetRequest request) {
+    public ResponseEntity<?> addWagonToTrainSheet(@RequestBody AddWagonToTrainSheetRequest request) throws Exception {
         return ResponseEntity.ok(trainSheetService.addWagonToTrainSheet(request.getSheetId(), request.getWagonId()));
     }
 

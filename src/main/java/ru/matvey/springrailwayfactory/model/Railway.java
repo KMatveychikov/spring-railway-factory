@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import ru.matvey.springrailwayfactory.enums.RailwayStatus;
 
 import java.util.List;
 @Data
@@ -18,4 +19,6 @@ public class Railway {
     private Long id;
     @OneToMany
     private List<Wagon> wagons;
+    @Enumerated
+    private RailwayStatus status;
 }
