@@ -1,0 +1,487 @@
+2023-05-14 13:25:56,952 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 13:25:56,976 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SpringRailwayFactoryApplication using Java 19.0.2 with PID 10968 (E:\Dev\IdeaProjects\spring-railway-factory\target\classes started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 13:25:56,977 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 13:25:56,977 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 13:25:57,596 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 13:25:57,659 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 57 ms. Found 6 JPA repository interfaces.
+2023-05-14 13:25:58,098 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-05-14 13:25:58,105 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 13:25:58,106 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-14 13:25:58,106 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-14 13:25:58,186 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-14 13:25:58,186 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1177 ms
+2023-05-14 13:25:58,293 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 13:25:58,330 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 13:25:58,333 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 13:25:58,433 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 13:25:58,525 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 13:25:58,536 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 13:25:58,668 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22686ddb
+2023-05-14 13:25:58,670 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 13:25:58,703 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5d08976a
+2023-05-14 13:25:58,916 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 13:25:59,498 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 13:25:59,643 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 13:25:59,909 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-05-14 13:26:00,204 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 13:26:00,823 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@53fb3e1b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f5a680, org.springframework.security.web.context.SecurityContextHolderFilter@5a2297d7, org.springframework.security.web.header.HeaderWriterFilter@1e084a26, org.springframework.security.web.authentication.logout.LogoutFilter@3453f79c, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@45482f82, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@39d37da8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@554a2f3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48a2b492, org.springframework.security.web.session.SessionManagementFilter@2c4e63b3, org.springframework.security.web.access.ExceptionTranslationFilter@78a0d664, org.springframework.security.web.access.intercept.AuthorizationFilter@52df6d0f]
+2023-05-14 13:26:01,075 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 13:26:01,093 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 13:26:01,102 INFO [main] org.springframework.boot.StartupInfoLogger: Started SpringRailwayFactoryApplication in 4.408 seconds (process running for 5.129)
+2023-05-14 14:46:55,213 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 14:46:55,217 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 14:46:55,220 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 14:47:17,073 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 14:47:17,097 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SpringRailwayFactoryApplication using Java 19.0.2 with PID 2656 (E:\Dev\IdeaProjects\spring-railway-factory\target\classes started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 14:47:17,097 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 14:47:17,098 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 14:47:17,722 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 14:47:17,780 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 51 ms. Found 6 JPA repository interfaces.
+2023-05-14 14:47:18,218 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-05-14 14:47:18,225 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 14:47:18,225 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-14 14:47:18,225 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-14 14:47:18,304 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-14 14:47:18,304 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1170 ms
+2023-05-14 14:47:18,413 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 14:47:18,450 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 14:47:18,453 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 14:47:18,556 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 14:47:18,643 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 14:47:18,653 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 14:47:18,782 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@406ad6d5
+2023-05-14 14:47:18,784 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 14:47:18,817 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@52909a97
+2023-05-14 14:47:19,027 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 14:47:19,612 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 14:47:19,753 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 14:47:20,027 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-05-14 14:47:20,329 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 14:47:20,940 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3f7f9d3f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62966c9f, org.springframework.security.web.context.SecurityContextHolderFilter@299cddbf, org.springframework.security.web.header.HeaderWriterFilter@6a9a6a0c, org.springframework.security.web.authentication.logout.LogoutFilter@3f7a7ce6, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@4dd425dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13da6bc9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e8fb390, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4193da4d, org.springframework.security.web.session.SessionManagementFilter@492a220e, org.springframework.security.web.access.ExceptionTranslationFilter@7adde776, org.springframework.security.web.access.intercept.AuthorizationFilter@7baf7e2c]
+2023-05-14 14:47:21,197 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 14:47:21,215 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 14:47:21,224 INFO [main] org.springframework.boot.StartupInfoLogger: Started SpringRailwayFactoryApplication in 4.418 seconds (process running for 5.131)
+2023-05-14 15:02:38,851 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:02:38,971 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:02:39,422 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:02:39,442 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 20312 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:02:39,443 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:02:39,444 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:02:40,332 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:02:40,407 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 66 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:02:40,975 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:02:41,051 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:02:41,054 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:02:41,263 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:02:41,415 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:02:41,437 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:02:41,657 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d2e6f62
+2023-05-14 15:02:41,659 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:02:41,718 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@553ce348
+2023-05-14 15:02:42,058 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:02:42,853 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:02:43,012 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:02:43,735 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:02:44,793 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c3e5e3c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11f752d1, org.springframework.security.web.context.SecurityContextHolderFilter@46c093b4, org.springframework.security.web.header.HeaderWriterFilter@159a32a4, org.springframework.security.web.authentication.logout.LogoutFilter@3344c1d7, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@ebbbe20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20ee660b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40e41f88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eaa4ed0, org.springframework.security.web.session.SessionManagementFilter@606d2a92, org.springframework.security.web.access.ExceptionTranslationFilter@15e881c0, org.springframework.security.web.access.intercept.AuthorizationFilter@735dc133]
+2023-05-14 15:02:45,218 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 6.034 seconds (process running for 7.355)
+2023-05-14 15:02:46,145 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:02:46,149 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:02:46,155 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:10:50,155 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:10:50,284 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:10:50,728 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:10:50,747 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 17088 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:10:50,748 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:10:50,749 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:10:51,692 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:10:51,767 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 67 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:10:52,355 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:10:52,434 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:10:52,437 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:10:52,633 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:10:52,785 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:10:52,805 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:10:53,028 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@36238b12
+2023-05-14 15:10:53,030 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:10:53,088 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5a6f6cac
+2023-05-14 15:10:53,451 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:10:54,272 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:10:54,446 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:10:55,130 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:10:56,102 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7f065f9e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@106c3e0a, org.springframework.security.web.context.SecurityContextHolderFilter@5cb3cfef, org.springframework.security.web.header.HeaderWriterFilter@cbd3871, org.springframework.security.web.authentication.logout.LogoutFilter@4ff00844, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@4cb59398, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@197da701, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@35fd03d9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e778abb, org.springframework.security.web.session.SessionManagementFilter@73543048, org.springframework.security.web.access.ExceptionTranslationFilter@1dc987b, org.springframework.security.web.access.intercept.AuthorizationFilter@2719139f]
+2023-05-14 15:10:56,540 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 6.09 seconds (process running for 7.432)
+2023-05-14 15:10:57,405 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=52, name=null) created
+2023-05-14 15:10:57,452 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:10:57,455 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:10:57,461 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:11:48,287 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:11:48,405 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:11:48,822 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:11:48,843 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 7292 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:11:48,843 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:11:48,844 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:11:49,735 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:11:49,802 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 60 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:11:50,383 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:11:50,453 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:11:50,456 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:11:50,645 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:11:50,799 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:11:50,820 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:11:51,031 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1716c037
+2023-05-14 15:11:51,033 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:11:51,088 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7ff09659
+2023-05-14 15:11:51,421 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:11:52,237 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:11:52,394 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:11:53,076 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:11:54,101 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2688b2be, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@30d3f583, org.springframework.security.web.context.SecurityContextHolderFilter@6f0df74, org.springframework.security.web.header.HeaderWriterFilter@77737e3e, org.springframework.security.web.authentication.logout.LogoutFilter@5578ed7e, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@308d4981, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57f1fbae, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28901fe7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3344c1d7, org.springframework.security.web.session.SessionManagementFilter@159a32a4, org.springframework.security.web.access.ExceptionTranslationFilter@197da701, org.springframework.security.web.access.intercept.AuthorizationFilter@66be0e72]
+2023-05-14 15:11:54,536 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 5.946 seconds (process running for 7.23)
+2023-05-14 15:11:55,446 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=102, name=test) created
+2023-05-14 15:11:55,518 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:11:55,522 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:11:55,528 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:21:56,027 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:21:56,143 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:21:56,551 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:21:56,575 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 12644 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:21:56,576 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:21:56,577 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:21:57,441 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:21:57,509 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 61 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:21:58,085 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:21:58,157 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:21:58,160 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:21:58,363 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:21:58,529 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:21:58,550 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:21:58,786 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@110620d
+2023-05-14 15:21:58,788 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:21:58,847 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@14656be5
+2023-05-14 15:21:59,168 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:21:59,992 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:22:00,145 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:22:00,845 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:22:01,912 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b407ac7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4c5ae26d, org.springframework.security.web.context.SecurityContextHolderFilter@6b6cf3c1, org.springframework.security.web.header.HeaderWriterFilter@6c8f5262, org.springframework.security.web.authentication.logout.LogoutFilter@2719139f, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@50fe5df2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c450960, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c5fbde4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5578ed7e, org.springframework.security.web.session.SessionManagementFilter@77737e3e, org.springframework.security.web.access.ExceptionTranslationFilter@4b8ba6b7, org.springframework.security.web.access.intercept.AuthorizationFilter@58fbecde]
+2023-05-14 15:22:02,337 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 6.019 seconds (process running for 7.286)
+2023-05-14 15:22:03,171 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=152, name=test) created
+2023-05-14 15:22:03,215 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:22:03,218 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:22:03,227 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:23:03,169 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:23:03,281 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:23:03,700 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:23:03,720 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 13860 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:23:03,720 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:23:03,721 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:23:04,584 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:23:04,654 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 63 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:23:05,243 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:23:05,319 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:23:05,321 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:23:05,517 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:23:05,673 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:23:05,694 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:23:05,922 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63dc3420
+2023-05-14 15:23:05,924 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:23:05,975 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@344f9467
+2023-05-14 15:23:06,317 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:23:07,103 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:23:07,259 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:23:07,934 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:23:08,989 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13563e64, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f062e10, org.springframework.security.web.context.SecurityContextHolderFilter@4d86f330, org.springframework.security.web.header.HeaderWriterFilter@57f1fbae, org.springframework.security.web.authentication.logout.LogoutFilter@58a5b69c, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@42fdf45e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ef34eb3, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2719139f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36dbfa68, org.springframework.security.web.session.SessionManagementFilter@20ee660b, org.springframework.security.web.access.ExceptionTranslationFilter@6f0df74, org.springframework.security.web.access.intercept.AuthorizationFilter@5eaa4ed0]
+2023-05-14 15:23:09,408 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 5.97 seconds (process running for 7.204)
+2023-05-14 15:23:10,274 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=202, name=test) created
+2023-05-14 15:23:10,323 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:23:10,327 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:23:10,336 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:24:11,485 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:24:11,599 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:24:12,001 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:24:12,023 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 14188 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:24:12,023 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:24:12,024 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:24:12,883 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:24:12,952 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:24:13,532 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:24:13,606 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:24:13,609 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:24:13,801 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:24:13,950 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:24:13,972 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:24:14,204 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@135e49b2
+2023-05-14 15:24:14,206 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:24:14,260 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@6e364f1f
+2023-05-14 15:24:14,608 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:24:15,396 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:24:15,549 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:24:16,236 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:24:17,342 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ff00844, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20ee660b, org.springframework.security.web.context.SecurityContextHolderFilter@4b8ba6b7, org.springframework.security.web.header.HeaderWriterFilter@28be7db5, org.springframework.security.web.authentication.logout.LogoutFilter@28901fe7, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@41935a9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c8f5262, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6bca6c4c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40e41f88, org.springframework.security.web.session.SessionManagementFilter@39303a6, org.springframework.security.web.access.ExceptionTranslationFilter@2c4eda3a, org.springframework.security.web.access.intercept.AuthorizationFilter@4a84beb7]
+2023-05-14 15:24:17,778 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 6.009 seconds (process running for 7.255)
+2023-05-14 15:24:18,691 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:24:18,695 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:24:18,703 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:24:23,521 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-14 15:24:23,522 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-05-14 15:24:23,523 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2023-05-14 15:25:21,172 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:25:21,290 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:25:21,704 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:25:21,721 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 21264 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:25:21,722 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:25:21,723 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:25:22,632 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:25:22,701 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 62 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:25:23,273 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:25:23,345 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:25:23,348 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:25:23,539 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:25:23,689 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:25:23,709 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:25:23,921 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4f402027
+2023-05-14 15:25:23,923 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:25:23,982 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@20be890d
+2023-05-14 15:25:24,333 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:25:25,113 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:25:25,271 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:25:25,978 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:25:26,975 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@15e881c0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68ee7b3b, org.springframework.security.web.context.SecurityContextHolderFilter@1509bd56, org.springframework.security.web.header.HeaderWriterFilter@1db7c267, org.springframework.security.web.authentication.logout.LogoutFilter@77737e3e, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@2fafa9bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@466bf366, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@28be7db5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@159a32a4, org.springframework.security.web.session.SessionManagementFilter@3c20abd6, org.springframework.security.web.access.ExceptionTranslationFilter@3aebdb4, org.springframework.security.web.access.intercept.AuthorizationFilter@7021bb55]
+2023-05-14 15:25:27,410 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 5.946 seconds (process running for 7.192)
+2023-05-14 15:25:28,319 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:25:28,323 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:25:28,332 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:27:04,274 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:27:04,403 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:27:04,805 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:27:04,823 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 2856 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:27:04,823 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:27:04,824 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:27:05,701 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:27:05,769 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 60 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:27:07,611 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:27:07,707 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:27:07,711 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:27:07,920 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:27:07,933 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:27:07,960 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:27:08,185 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@31204303
+2023-05-14 15:27:08,187 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:27:08,245 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@40b01718
+2023-05-14 15:27:08,718 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:27:09,393 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:27:09,546 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:27:10,276 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:27:11,380 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@f1b006b, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c2dfde3, org.springframework.security.web.context.SecurityContextHolderFilter@75cfb958, org.springframework.security.web.header.HeaderWriterFilter@753cfae3, org.springframework.security.web.authentication.logout.LogoutFilter@18f493d7, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@7154a248, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@64648af1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@42d65ffc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1131fcfd, org.springframework.security.web.session.SessionManagementFilter@226f472, org.springframework.security.web.access.ExceptionTranslationFilter@25a81f28, org.springframework.security.web.access.intercept.AuthorizationFilter@5f0c45ae]
+2023-05-14 15:27:11,812 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 7.239 seconds (process running for 8.516)
+2023-05-14 15:27:11,899 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:27:11,903 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:27:11,910 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:27:55,185 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:27:55,300 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:27:55,701 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:27:55,720 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 19476 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:27:55,721 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:27:55,721 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:27:56,263 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:27:56,266 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:27:56,270 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:27:56,700 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:27:56,772 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 64 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:27:58,743 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:27:58,821 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:27:58,825 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:27:59,015 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:27:59,027 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:27:59,052 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:27:59,311 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@de0c402
+2023-05-14 15:27:59,313 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:27:59,381 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@746fd19b
+2023-05-14 15:27:59,769 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:28:00,448 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:28:00,602 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:28:01,297 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:28:02,352 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ed763aa, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f39bcb5, org.springframework.security.web.context.SecurityContextHolderFilter@221ef0f0, org.springframework.security.web.header.HeaderWriterFilter@75cfb958, org.springframework.security.web.authentication.logout.LogoutFilter@4c541b00, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@6137dc84, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a5917f6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c34fd2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e6881e, org.springframework.security.web.session.SessionManagementFilter@3d056418, org.springframework.security.web.access.ExceptionTranslationFilter@2360ebe2, org.springframework.security.web.access.intercept.AuthorizationFilter@f1e8753]
+2023-05-14 15:28:02,808 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 7.351 seconds (process running for 8.626)
+2023-05-14 15:28:02,812 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:28:02,814 INFO [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger: 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-05-14 15:28:02,815 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:28:02,819 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:28:06,610 INFO [main] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils: Could not detect default configuration classes for test class [ru.matvey.springrailwayfactory.services.CargoServiceTest]: CargoServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-05-14 15:28:06,738 INFO [main] org.springframework.boot.test.context.SpringBootTestContextBootstrapper: Found @SpringBootConfiguration ru.matvey.springrailwayfactory.SpringRailwayFactoryApplication for test class ru.matvey.springrailwayfactory.services.CargoServiceTest
+2023-05-14 15:28:07,180 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:28:07,201 INFO [main] org.springframework.boot.StartupInfoLogger: Starting CargoServiceTest using Java 19.0.2 with PID 11468 (started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:28:07,202 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:28:07,203 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:28:08,086 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:28:08,156 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 63 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:28:09,949 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:28:10,021 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:28:10,025 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:28:10,216 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:28:10,227 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:28:10,252 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:28:10,487 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@639948a2
+2023-05-14 15:28:10,491 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:28:10,556 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@338270ea
+2023-05-14 15:28:10,962 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:28:11,668 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:28:11,821 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:28:12,541 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:28:13,611 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@13c36d48, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e93e396, org.springframework.security.web.context.SecurityContextHolderFilter@53c39950, org.springframework.security.web.header.HeaderWriterFilter@6edd8d56, org.springframework.security.web.authentication.logout.LogoutFilter@1131fcfd, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@60c33609, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@769d0ef2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6d58ed12, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f1e8753, org.springframework.security.web.session.SessionManagementFilter@5317a7ef, org.springframework.security.web.access.ExceptionTranslationFilter@352288bc, org.springframework.security.web.access.intercept.AuthorizationFilter@55448710]
+2023-05-14 15:28:14,061 INFO [main] org.springframework.boot.StartupInfoLogger: Started CargoServiceTest in 7.12 seconds (process running for 8.419)
+2023-05-14 15:28:14,154 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:28:14,156 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 15:28:14,160 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 15:37:49,457 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 15:37:49,484 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SpringRailwayFactoryApplication using Java 19.0.2 with PID 15376 (E:\Dev\IdeaProjects\spring-railway-factory\target\classes started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 15:37:49,484 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 15:37:49,485 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 15:37:50,114 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 15:37:50,171 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 50 ms. Found 6 JPA repository interfaces.
+2023-05-14 15:37:50,614 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-05-14 15:37:50,620 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:37:50,621 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-14 15:37:50,621 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-14 15:37:50,701 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-14 15:37:50,702 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1181 ms
+2023-05-14 15:37:50,812 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 15:37:50,852 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 15:37:50,854 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 15:37:50,956 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:37:51,044 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 15:37:51,054 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 15:37:51,181 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7530090a
+2023-05-14 15:37:51,183 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 15:37:51,216 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5a0f87e5
+2023-05-14 15:37:51,425 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 15:37:52,001 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 15:37:52,144 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 15:37:52,410 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-05-14 15:37:52,709 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 15:37:53,335 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@46f597f1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a045e85, org.springframework.security.web.context.SecurityContextHolderFilter@7164e54, org.springframework.security.web.header.HeaderWriterFilter@135f160e, org.springframework.security.web.authentication.logout.LogoutFilter@3687b83c, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@4af50246, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20040c6e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@cbea0df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@48861d1, org.springframework.security.web.session.SessionManagementFilter@4607cbe2, org.springframework.security.web.access.ExceptionTranslationFilter@3fae357f, org.springframework.security.web.access.intercept.AuthorizationFilter@52e34db]
+2023-05-14 15:37:53,606 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 15:37:53,624 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 15:37:53,633 INFO [main] org.springframework.boot.StartupInfoLogger: Started SpringRailwayFactoryApplication in 4.461 seconds (process running for 5.367)
+2023-05-14 19:25:28,533 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 19:25:28,550 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 19:25:28,554 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 19:25:34,855 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 19:25:34,881 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SpringRailwayFactoryApplication using Java 19.0.2 with PID 20784 (E:\Dev\IdeaProjects\spring-railway-factory\target\classes started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 19:25:34,882 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 19:25:34,884 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 19:25:35,533 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 19:25:35,599 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 59 ms. Found 7 JPA repository interfaces.
+2023-05-14 19:25:36,042 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-05-14 19:25:36,048 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 19:25:36,049 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-14 19:25:36,049 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-14 19:25:36,128 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-14 19:25:36,128 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1202 ms
+2023-05-14 19:25:36,236 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 19:25:36,274 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 19:25:36,277 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 19:25:36,381 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 19:25:36,469 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 19:25:36,479 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 19:25:36,609 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@22686ddb
+2023-05-14 19:25:36,611 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 19:25:36,644 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5d08976a
+2023-05-14 19:25:36,861 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 19:25:37,458 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 19:25:37,517 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler: SQL Warning Code: 0, SQLState: 00000
+2023-05-14 19:25:37,518 WARN [main] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler: ограничение "uk_lk3j7ox7ruq4377ke2a5nhamv" в таблице "accept_train_list_accept_list" не существует, пропускается
+2023-05-14 19:25:37,633 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 19:25:37,899 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-05-14 19:25:38,222 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 19:25:38,833 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@65852d05, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47462daf, org.springframework.security.web.context.SecurityContextHolderFilter@7b45f7ef, org.springframework.security.web.header.HeaderWriterFilter@1a4564a2, org.springframework.security.web.authentication.logout.LogoutFilter@21ebf9be, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@7010c9e4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@17d837ab, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e77f29e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@43fdef43, org.springframework.security.web.session.SessionManagementFilter@16160a37, org.springframework.security.web.access.ExceptionTranslationFilter@69af938b, org.springframework.security.web.access.intercept.AuthorizationFilter@f943847]
+2023-05-14 19:25:39,095 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 19:25:39,112 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 19:25:39,121 INFO [main] org.springframework.boot.StartupInfoLogger: Started SpringRailwayFactoryApplication in 4.556 seconds (process running for 5.272)
+2023-05-14 19:54:16,224 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 19:54:16,227 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 19:54:16,229 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 19:54:22,344 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 19:54:22,368 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SpringRailwayFactoryApplication using Java 19.0.2 with PID 19056 (E:\Dev\IdeaProjects\spring-railway-factory\target\classes started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 19:54:22,369 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 19:54:22,370 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 19:54:23,007 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 19:54:23,068 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 54 ms. Found 7 JPA repository interfaces.
+2023-05-14 19:54:23,528 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-05-14 19:54:23,534 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 19:54:23,535 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-14 19:54:23,535 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-14 19:54:23,616 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-14 19:54:23,617 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1212 ms
+2023-05-14 19:54:23,725 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 19:54:23,763 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 19:54:23,765 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 19:54:23,873 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 19:54:23,964 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 19:54:23,974 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 19:54:24,105 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6fde6f05
+2023-05-14 19:54:24,107 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 19:54:24,141 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@7afb9c93
+2023-05-14 19:54:24,369 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 19:54:24,972 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 19:54:25,139 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 19:54:25,405 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-05-14 19:54:25,730 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 19:54:26,355 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31dbca5d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40c92dfa, org.springframework.security.web.context.SecurityContextHolderFilter@f047670, org.springframework.security.web.header.HeaderWriterFilter@870413c, org.springframework.security.web.authentication.logout.LogoutFilter@6ad4ef13, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@33197c2f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@27d44578, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2446597e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16b713dd, org.springframework.security.web.session.SessionManagementFilter@2f0b5d79, org.springframework.security.web.access.ExceptionTranslationFilter@7692c0e9, org.springframework.security.web.access.intercept.AuthorizationFilter@17b9c9ff]
+2023-05-14 19:54:26,617 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 19:54:26,635 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 19:54:26,644 INFO [main] org.springframework.boot.StartupInfoLogger: Started SpringRailwayFactoryApplication in 4.572 seconds (process running for 5.271)
+2023-05-14 20:19:35,397 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:21:40,200 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:22:54,870 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:26:21,742 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:26:27,172 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-14 20:26:27,172 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-05-14 20:26:27,173 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 1 ms
+2023-05-14 20:27:55,707 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:28:09,120 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:28:48,814 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 20:28:48,816 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 20:28:48,819 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-05-14 20:28:51,443 INFO [background-preinit] org.hibernate.validator.internal.util.Version: HV000001: Hibernate Validator 8.0.0.Final
+2023-05-14 20:28:51,467 INFO [main] org.springframework.boot.StartupInfoLogger: Starting SpringRailwayFactoryApplication using Java 19.0.2 with PID 10836 (E:\Dev\IdeaProjects\spring-railway-factory\target\classes started by matvey in E:\Dev\IdeaProjects\spring-railway-factory)
+2023-05-14 20:28:51,467 DEBUG [main] org.springframework.boot.StartupInfoLogger: Running with Spring Boot v3.1.0-SNAPSHOT, Spring v6.0.9
+2023-05-14 20:28:51,468 INFO [main] org.springframework.boot.SpringApplication: No active profile set, falling back to 1 default profile: "default"
+2023-05-14 20:28:52,117 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-14 20:28:52,178 INFO [main] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 55 ms. Found 7 JPA repository interfaces.
+2023-05-14 20:28:52,621 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2023-05-14 20:28:52,628 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-8080"]
+2023-05-14 20:28:52,628 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-05-14 20:28:52,629 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-14 20:28:52,708 INFO [main] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-05-14 20:28:52,708 INFO [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1205 ms
+2023-05-14 20:28:52,814 INFO [main] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-14 20:28:52,852 INFO [main] org.hibernate.Version: HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-05-14 20:28:52,855 INFO [main] org.hibernate.cfg.Environment: HHH000406: Using bytecode reflection optimizer
+2023-05-14 20:28:52,958 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 20:28:53,045 INFO [main] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo: No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-05-14 20:28:53,056 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-05-14 20:28:53,182 INFO [main] com.zaxxer.hikari.pool.HikariPool: HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7e3ee128
+2023-05-14 20:28:53,183 INFO [main] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-05-14 20:28:53,218 INFO [main] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl: HHH035001: Using dialect: org.hibernate.dialect.PostgreSQLDialect, version: org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$DialectResolutionInfoImpl@5c839677
+2023-05-14 20:28:53,435 INFO [main] org.hibernate.bytecode.internal.BytecodeProviderInitiator: HHH000021: Bytecode provider name : bytebuddy
+2023-05-14 20:28:54,039 INFO [main] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-14 20:28:54,203 INFO [main] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 20:28:54,478 DEBUG [main] org.springframework.web.filter.GenericFilterBean: Filter 'jwtAuthenticationFilter' configured for use
+2023-05-14 20:28:54,804 WARN [main] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-14 20:28:55,433 INFO [main] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2f6352a3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@24455d50, org.springframework.security.web.context.SecurityContextHolderFilter@3c98eaa9, org.springframework.security.web.header.HeaderWriterFilter@f047670, org.springframework.security.web.authentication.logout.LogoutFilter@379df603, ru.matvey.springrailwayfactory.config.JwtAuthenticationFilter@7c3223aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1930e8ef, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1299fed3, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@bb160fb, org.springframework.security.web.session.SessionManagementFilter@1a916120, org.springframework.security.web.access.ExceptionTranslationFilter@5bb45afc, org.springframework.security.web.access.intercept.AuthorizationFilter@35d4fecf]
+2023-05-14 20:28:55,692 INFO [main] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-8080"]
+2023-05-14 20:28:55,709 INFO [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2023-05-14 20:28:55,718 INFO [main] org.springframework.boot.StartupInfoLogger: Started SpringRailwayFactoryApplication in 4.547 seconds (process running for 5.317)
+2023-05-14 20:29:04,956 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:29:15,974 INFO [http-nio-8080-exec-1] org.apache.juli.logging.DirectJDKLog: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-14 20:29:15,974 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Initializing Servlet 'dispatcherServlet'
+2023-05-14 20:29:15,976 INFO [http-nio-8080-exec-1] org.springframework.web.servlet.FrameworkServlet: Completed initialization in 0 ms
+2023-05-14 20:33:26,612 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:33:49,509 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 20:40:12,954 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 21:12:11,994 INFO [main] ru.matvey.springrailwayfactory.services.CargoService: Cargo Cargo(id=null, name=Test) created
+2023-05-14 21:38:55,207 INFO [SpringApplicationShutdownHook] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-14 21:38:55,210 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-05-14 21:38:55,213 INFO [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
